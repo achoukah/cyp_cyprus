@@ -1,0 +1,760 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ma",
+				"margin-bottom\tproperty"
+			],
+			[
+				"mw",
+				"max-width"
+			],
+			[
+				"cp",
+				"cur-p\tcursor: pointer;"
+			],
+			[
+				"fw",
+				"fxw-w\tflex-wrap: wrap;"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"pos",
+				"pos-s\tposition: static;"
+			],
+			[
+				"n",
+				"no-repeat"
+			],
+			[
+				"bg",
+				"bgc\tbackground-color: #${1:fff};"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"b",
+				"bg\tbackground"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"anwar",
+				"anwarchoukah"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"fs",
+				"font-size"
+			],
+			[
+				"p",
+				"pointer"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"bp",
+				"bgp\tbackground-position"
+			],
+			[
+				"shar",
+				"sharingButton"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2388,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 126.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"synta mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"mini",
+				"HTML Minfier: Minify File (create new)"
+			],
+			[
+				"unm",
+				"Run CSScomb"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"theme",
+				"MarkdownEditing: Change color scheme..."
+			],
+			[
+				"MarkdownEditing",
+				"Preferences: MarkdownEditing Settings – Default"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"forma",
+				"Format CSS: Expanded"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"beautif",
+				"HTMLBeautify"
+			],
+			[
+				"beaut",
+				"HTMLBeautify"
+			],
+			[
+				"beau",
+				"SassBeautify"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Convert Case: Title Case"
+			],
+			[
+				"LOWER",
+				"Convert Case: Lower Case"
+			],
+			[
+				"eme",
+				"Set Syntax: Emmet"
+			],
+			[
+				"css",
+				"Format CSS: Expanded"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"emme",
+				"Set Syntax: Emmet"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"install\t",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"beauti",
+				"HTMLBeautify"
+			]
+		],
+		"width": 496.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/achoukah/Documents/Tool_Shed/01-locate-productions/04-LOC-newsletter/03/html/index.html",
+		"/Users/achoukah/Documents/Tool_Shed/01-locate-productions/04-LOC-newsletter/03/html/scss/partials/_template.scss",
+		"/Users/achoukah/Documents/Tool_Shed/01-locate-productions/04-LOC-newsletter/03/html/css/style.css",
+		"/Users/achoukah/Documents/Tool_Shed/01-locate-productions/04-LOC-newsletter/03/html/scss/style.css",
+		"/Users/achoukah/Documents/Tool_Shed/01-locate-productions/04-LOC-newsletter/03/html/scss/partials/_headings.scss",
+		"/Users/achoukah/Dropbox/notesy/swgoh guild rules knights of mandalore.txt",
+		"/Users/achoukah/Dropbox/notesy/swgoh guild rules.txt",
+		"/Users/achoukah/Dropbox/notesy/swgoh.md",
+		"/Users/achoukah/Dropbox/ebooks/Calibre/Polity Chronology/Neal Asher - Polity Chronology (19)/Neal Asher - Polity Chronology - Polity Chronology.txt",
+		"/Users/achoukah/Documents/News_UK/Times_Appointments/004-rnli/03-visual/04-html/Sax-Bam-RNLI-Chief-Exec-1267.html",
+		"/Users/achoukah/Documents/News_UK/Times_Appointments/004-rnli/03-visual/04-html/css/style.css",
+		"/Users/achoukah/Documents/News_UK/Times_Appointments/004-rnli/03-visual/04-html/scss/style.scss",
+		"/Users/achoukah/Documents/News_UK/Times_Appointments/002-national_archives/html/index.html",
+		"/Users/achoukah/Documents/News_UK/driving.co.uk/tootle/to send/tootle-widget-300x250.txt",
+		"/Users/achoukah/Documents/News_UK/driving.co.uk/tootle/to send/tootle-widget-min-300x250.txt",
+		"/Users/achoukah/Dropbox/ebooks/Calibre/Heleen van Nues, Lennart Overkamp/Priority Guides -  Alternative to Wireframes (2)/Priority Guides -  Alternative to Wirefram - Heleen van Nues, Lennart Overkamp.epub",
+		"/Users/achoukah/Documents/News_UK/driving.co.uk/tootle/03-visual/04-html/css/widget.css",
+		"/Users/achoukah/Documents/News_UK/driving.co.uk/tootle/html/v2/css/widget.css",
+		"/Users/achoukah/Documents/News_UK/driving.co.uk/tootle/html/scss/widget.scss",
+		"/Users/achoukah/Documents/News_UK/driving.co.uk/tootle/html/v2/tootle-widget-inline.html",
+		"/Users/achoukah/Documents/News_UK/driving.co.uk/tootle/html/v2/tootle-widget.min.html",
+		"/Users/achoukah/Library/Application Support/Sublime Text 3/Packages/User/CSScomb.sublime-settings",
+		"/Users/achoukah/Documents/News_UK/driving.co.uk/tootle/original/scss/widget.css",
+		"/Users/achoukah/Documents/News_UK/driving.co.uk/tootle/Mobile.png",
+		"/Users/achoukah/Documents/News_UK/driving.co.uk/tootle/html/css/widget.css",
+		"/Users/achoukah/Documents/News_UK/driving.co.uk/tootle/html/tootle-widget-300x250.html",
+		"/Users/achoukah/Documents/News_UK/driving.co.uk/tootle/html/tootle-widget-min-300x250.html",
+		"/Users/achoukah/Documents/News_UK/driving.co.uk/tootle/original/tootle-widget.html",
+		"/Users/achoukah/Documents/News_UK/driving.co.uk/tootle/html/scss/widget.css",
+		"/Users/achoukah/Documents/News_UK/driving.co.uk/tootle/03-visual/04-html/scss/widget.scss",
+		"/Users/achoukah/Documents/News_UK/driving.co.uk/tootle/00-assets/_original/tootle-widget.html",
+		"/Users/achoukah/Documents/News_UK/driving.co.uk/tootle/03-visual/04-html/tootle-widget-300x250.html",
+		"/Users/achoukah/Documents/News_UK/driving.co.uk/tootle/00-assets/_original/widget.min.css",
+		"/Users/achoukah/Documents/News_UK/driving.co.uk/tootle/03-visual/04-html/scss",
+		"/Users/achoukah/Documents/News_UK/driving.co.uk/tootie_appointments/00-assets/_original/widget.min.css",
+		"/Users/achoukah/Documents/News_UK/driving.co.uk/tootie_appointments/00-assets/_original/tootle-widget.html",
+		"/Users/achoukah/Documents/daring_fireball/scss/partials/_search.scss",
+		"/Users/achoukah/Documents/daring_fireball/scss/partials/_sidebar.scss",
+		"/Users/achoukah/Documents/daring_fireball/index.html",
+		"/Users/achoukah/Documents/daring_fireball/scss/partials/_links.scss",
+		"/Users/achoukah/Documents/daring_fireball/scss/partials/_ad.scss",
+		"/Users/achoukah/Documents/daring_fireball/scss/partials/_header.scss",
+		"/Users/achoukah/Documents/daring_fireball/scss/partials/_article.scss",
+		"/Users/achoukah/Documents/daring_fireball/scss/partials/_typography.scss",
+		"/Users/achoukah/Documents/daring_fireball/scss/partials/_layout.scss",
+		"/Users/achoukah/Documents/daring_fireball/scss/partials/_navigation.scss",
+		"/Users/achoukah/Documents/daring_fireball/scss/partials/_variables.scss",
+		"/Users/achoukah/Documents/daring_fireball/scss/partials/_footer.scss",
+		"/Users/achoukah/Documents/daring_fireball/sticky-test.html",
+		"/Users/achoukah/Documents/daring_fireball/scss/partials/_general.scss",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/site/snippets/contactform-old.php",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/site/snippets/contactform.php",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/content/1-projects/locate_productions/project.txt",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/content/3-contact/contact.txt",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/mailchimp/mailchimp.css",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/mailchimp/mailchimp-template-anwarchoukah.html",
+		"/Users/achoukah/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Markdown.sublime-settings",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/.gitignore",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/partials/_footer.scss",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/partials/_variables.scss",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/content/1-projects/clio-media/project.txt",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/social.scss",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/content/1-projects/1-clio-media/project.txt",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/partials/_projects.scss",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/site/snippets/social.php",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/css/social.css",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/social.css",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/site/snippets/header.php",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/site/snippets/footer.php",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/site/snippets/projects.php",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/commit-msg.txt",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/site/snippets/sidebar.php",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/site/templates/home.php",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/site/templates/default.php",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/site/templates/projects.php",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/kirby/branches/default.php",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/partials/_sidebar.scss",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/partials/_header.scss",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/partials/_main.scss",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/partials/_typography.scss",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/partials/_navigation.scss",
+		"/Users/achoukah/Library/Caches/com.binarynights.ForkLift-3/DA552811-0BBF-4E84-8650-24FAD38273B6/header.php",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/style.scss",
+		"/Users/achoukah/Library/Caches/com.binarynights.ForkLift-3/37DBE00F-E70D-48FE-90EC-E77164EC37D1/footer.php",
+		"/Users/achoukah/Library/Caches/com.binarynights.ForkLift-3/C0A36E54-E137-4A42-B765-2B374F839EBB/site.txt",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/content/site.txt",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/site/snippets/menu.php",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/partials/_links.scss",
+		"/Users/achoukah/BT/Apps/Final Draft 9.0.2 build 136 (cracked exe) [ChingLiu]/ChingLiu.Install.Notes copy.txt",
+		"/Users/achoukah/Documents/Tool_Shed/01-locate-productions/02-LOC-email-signatures/02-html/LocateProds-email-inline.html",
+		"/Users/achoukah/Documents/Tool_Shed/01-locate-productions/02-LOC-email-signatures/02-html/loc-signature.txt",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/content/2-about-me/about-me.txt",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/critical.scss",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/content/home/home.txt",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/site/config/config.php",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/.htaccess",
+		"/Applications/MAMP/conf/apache/original/httpd.conf",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/content/1-projects/2-zipwyr/project.txt",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/content/1-projects/3-utv/project.txt",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/content/1-projects/1-forient/project.txt",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/__old/content-old/1-about/about.txt",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/partials/_reset.scss",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/css/main.css",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/css/critical.css",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/analyticstracking.php",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/main.css",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/site/templates/contact.php",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/site/snippets/contactmail.php",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/site/controllers/contact.php",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/content/3-contact/thank-you/thank-you.txt",
+		"/Users/achoukah/Library/Caches/com.binarynights.ForkLift-3/CCC88098-7BCA-413F-8B3F-21518B2315D5/nginx.conf",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/phpinfo.php",
+		"/Users/achoukah/.ssh/anwarchoukah.pub",
+		"/Users/achoukah/.ssh/id_rsa.pub",
+		"/Users/achoukah/.ssh/known_hosts",
+		"/Users/achoukah/.ssh/id_rsa",
+		"/Users/achoukah/Library/Caches/com.binarynights.ForkLift2/#2/header.php",
+		"/Users/achoukah/Library/Caches/com.binarynights.ForkLift2/#0/header.php",
+		"/Users/achoukah/Library/Caches/com.binarynights.ForkLift2/#1/header.php",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/css/style.css",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/.sass-cache/0ebb7d76ca79711a8be0b85008de2912632bb471/_sidebar.scssc",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/.sass-cache/382f68e4313b8208d9dd911d0ad0d84195013c57/_sidebar.scssc",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/.sass-cache/9e4ea2f3df865e1f1c9f322fedbb8c3dcb485946/_sidebar.scssc",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/partials/_site.scss",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/partials/_meta.scss",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/.sass-cache/9e4ea2f3df865e1f1c9f322fedbb8c3dcb485946/_site.scssc",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/css/main-old.css",
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/.sass-cache/0ebb7d76ca79711a8be0b85008de2912632bb471/_header.scssc"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2388,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								397,
+								397
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 48,
+								"count": 22,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"auto_name": "",
+							"colorcode": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 47.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 32.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 162.0
+	},
+	"pinned_build_system": "",
+	"project": "cyp_cyprus.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sty",
+				"css/style.css"
+			],
+			[
+				"tem",
+				"scss/partials/_template.scss"
+			],
+			[
+				"hea",
+				"scss/partials/_headings.scss"
+			],
+			[
+				"templa",
+				"scss/partials/_template.scss"
+			],
+			[
+				"",
+				"03-visual/04-html/css/widget.css"
+			],
+			[
+				"widg",
+				"html/css/widget.css"
+			],
+			[
+				"st",
+				"html/scss/widget.css"
+			],
+			[
+				"header",
+				"scss/partials/_header.scss"
+			],
+			[
+				"searc",
+				"scss/partials/_search.scss"
+			],
+			[
+				"side",
+				"scss/partials/_sidebar.scss"
+			],
+			[
+				"ad",
+				"scss/partials/_ad.scss"
+			],
+			[
+				"sear",
+				"scss/partials/_search.scss"
+			],
+			[
+				"link",
+				"scss/partials/_links.scss"
+			],
+			[
+				"lay",
+				"scss/partials/_layout.scss"
+			],
+			[
+				"head",
+				"scss/partials/_header.scss"
+			],
+			[
+				"na",
+				"scss/partials/_navigation.scss"
+			],
+			[
+				"typ",
+				"scss/partials/_typography.scss"
+			],
+			[
+				"var",
+				"scss/partials/_variables.scss"
+			],
+			[
+				"nav",
+				"scss/partials/_navigation.scss"
+			],
+			[
+				"heade",
+				"scss/partials/_header.scss"
+			],
+			[
+				"ty",
+				"scss/partials/_typography.scss"
+			],
+			[
+				"h",
+				"scss/partials/_header.scss"
+			],
+			[
+				"footer",
+				"scss/partials/_footer.scss"
+			],
+			[
+				"foo",
+				"scss/partials/_footer.scss"
+			],
+			[
+				"conta",
+				"site/snippets/contactform.php"
+			],
+			[
+				"contact",
+				"content/3-contact/contact.txt"
+			],
+			[
+				"social",
+				"assets/scss/social.scss"
+			],
+			[
+				"socia",
+				"site/snippets/social.php"
+			],
+			[
+				"defau",
+				"kirby/branches/default.php"
+			],
+			[
+				"sidebar",
+				"site/snippets/sidebar.php"
+			],
+			[
+				"main",
+				"assets/scss/partials/_main.scss"
+			],
+			[
+				"typo",
+				"assets/scss/partials/_typography.scss"
+			],
+			[
+				"projec",
+				"assets/scss/partials/_projects.scss"
+			],
+			[
+				"pro",
+				"assets/scss/partials/_projects.scss"
+			],
+			[
+				"mai",
+				"assets/scss/partials/_main.scss"
+			],
+			[
+				"config",
+				"site/config/config.php"
+			],
+			[
+				"proje",
+				"site/snippets/projects.php"
+			],
+			[
+				"sideba",
+				"site/snippets/sidebar.php"
+			],
+			[
+				"abou",
+				"__old/content-old/1-about/about.txt"
+			],
+			[
+				"commi",
+				"commit-msg.txt"
+			],
+			[
+				"reset",
+				"assets/scss/partials/_reset.scss"
+			],
+			[
+				"comm",
+				"commit-msg.txt"
+			],
+			[
+				"com",
+				"commit-msg.txt"
+			],
+			[
+				"links",
+				"assets/scss/partials/_links.scss"
+			],
+			[
+				"varia",
+				"assets/scss/partials/_variables.scss"
+			],
+			[
+				"site",
+				"assets/scss/partials/_site.scss"
+			],
+			[
+				"conf",
+				"site/config/config.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 211.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
