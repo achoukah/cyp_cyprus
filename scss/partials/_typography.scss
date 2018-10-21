@@ -6,7 +6,7 @@ body {
   font-family: $font-body;
   font-weight: 400;
   line-height: 1.45;
-  color: $wh-lt;
+  color: $wh-tr-7;
 }
 
 p {margin-bottom: 1.3em;}
@@ -35,4 +35,9 @@ small, .font_small {font-size: 0.707em;}
   font-family: $font-else;
   text-transform: uppercase;
   font-size: 1.75em;
+}
+
+a {
+  text-decoration: none;
+  color: $wh-lt;
 }
