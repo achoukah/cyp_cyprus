@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em 2em;
+
+  a {
+
+  }
+  img {
+    // display: block;
+  }
+}
+.site-branding {
+  margin: 0;
+  padding: 0;
+  max-width: 295px;
+}

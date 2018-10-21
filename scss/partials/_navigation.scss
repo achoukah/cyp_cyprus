@@ -1,0 +1,14 @@
+.navigation-container {
+  width: calc(100% - 350px);
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.navigation--item {
+  margin-left: 3em;
+}

@@ -140,9 +140,9 @@ small, .font_small {
 
 /* line 34, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_typography.scss */
 .navigation {
-  font-family: "Teko", sans-serif;
+  font-family: "Oswald", sans-serif;
   text-transform: uppercase;
-  font-size: 1.75em;
+  font-size: 1.25em;
 }
 
 /* line 40, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_typography.scss */
@@ -157,5 +157,38 @@ body {
   background-image: url(../img/site-bg-desktop.jpg);
   background-size: cover;
   background-position: 50% 0;
+}
+
+/* line 1, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_header.scss */
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em 2em;
+}
+
+/* line 15, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_header.scss */
+.site-branding {
+  margin: 0;
+  padding: 0;
+  max-width: 295px;
+}
+
+/* line 1, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_navigation.scss */
+.navigation-container {
+  width: calc(100% - 350px);
+}
+
+/* line 5, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_navigation.scss */
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* line 12, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_navigation.scss */
+.navigation--item {
+  margin-left: 3em;
 }
 /*# sourceMappingURL=style.css.map */
