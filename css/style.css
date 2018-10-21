@@ -144,4 +144,12 @@ small, .font_small {
   text-transform: uppercase;
   font-size: 1.75em;
 }
+
+/* line 1, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
+body {
+  background-color: #1a1919;
+  background-image: url(../img/site-bg-desktop.jpg);
+  background-size: cover;
+  background-position: 50% 0;
+}
 /*# sourceMappingURL=style.css.map */
