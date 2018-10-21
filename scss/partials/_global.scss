@@ -4,3 +4,17 @@ body {
   background-size: cover;
   background-position: 50% 0;
 }
+.page-container {
+  width: 100vw;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.content-wrapper {
+  max-width: 720px;
+  margin: auto;
+  flex: 1;
+}
+.content-section {
+  margin: 0 1em 2em;
+}
