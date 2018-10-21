@@ -44,3 +44,35 @@
   $tu:      #35465c; // Tumblr
   $wa:      #25d366; // WhatsApp
   $yt:      #e52d27; // YouTube
+
+
+// MIXINS - MEDIA QUERIES
+
+  $small:     600px;
+  $large:     998px;
+
+
+  @mixin mq-s {
+    @media (max-width: #{$small}) {
+      @content;
+    }
+  }
+
+  @mixin mq-m {
+    @media (min-width: #{$small + 1px}) and (max-width: #{$large - 1px}) {
+      @content;
+    }
+  }
+
+  @mixin mq-l {
+    @media (min-width: #{$large}) {
+      @content;
+    }
+  }
+
+
+// FONTS
+
+  $font-head: "Overpass", sans-serif;
+  $font-body: "Overpass", sans-serif;
+  $font-else: "Teko", sans-serif;
