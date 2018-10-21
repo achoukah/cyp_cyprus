@@ -1,0 +1,50 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4em;
+}
+.footer-list {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  &.social {
+
+  }
+}
+.footer-list--item {
+  width: 2.7em;
+  height: 2.7em;
+  overflow: hidden;
+  text-indent: -9999px;
+  margin: 0.5em;
+}
+.footer-list--social {
+
+}
+.footer-link {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 50%;
+  background-color: $wh-tr-3;
+}
+.footer-link--instagram {
+  &:hover {
+    background-color: $ig;
+  }
+}
+.footer-link--facebook {
+  &:hover {
+    background-color: $fb;
+  }
+}
+.footer-link--twitter {
+  &:hover {
+    background-color: $tw;
+  }
+}
+.copyright {
+  text-align: center;
+  color: $wh-tr-3
+}
