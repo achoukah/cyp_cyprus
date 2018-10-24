@@ -35,13 +35,26 @@ small, .font_small {font-size: 0.707em;}
   font-family: $font-else;
   text-transform: uppercase;
   font-size: 1.25em;
+
+  @include mq-s {
+    font-size: 1em;
+  }
 }
 
 a {
   text-decoration: none;
   color: $wh-lt;
+  transition: all 0.2s ease-in-out;
 }
 strong {
   font-weight: 700;
   color: $wh-tr-9;
+}
+.text-large {
+  font-size: 1.25em;
+  color: $wh-tr-8;
+
+  @include mq-s {
+    font-size: 1em;
+  }
 }
