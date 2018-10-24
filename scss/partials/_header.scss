@@ -3,10 +3,14 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+
   padding: 0 1em 2em;
 
   @include mq-s {
     flex-direction: column;
+  }
+  @include mq-m {
+
   }
 
   a {
@@ -29,6 +33,8 @@
 
   @include mq-s {
     width: 100%;
-    // order: 2;
+  }
+  @include mq-m {
+    width: 260px;
   }
 }

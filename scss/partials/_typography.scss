@@ -39,6 +39,9 @@ small, .font_small {font-size: 0.707em;}
   @include mq-s {
     font-size: 1em;
   }
+  @include mq-m {
+    font-size: 1.1em;
+  }
 }
 
 a {

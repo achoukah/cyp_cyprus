@@ -5,6 +5,12 @@
     width: 100%;
     order: 0;
   }
+  @include mq-m {
+    width: calc(100% - 260px);
+    // margin-top: -1em;
+    margin-left: auto;
+    // border: medium dotted red;
+  }
 }
 
 .navigation {
@@ -16,6 +22,9 @@
     flex-wrap: wrap;
     justify-content: space-around;
   }
+  @include mq-m {
+
+  }
 }
 
 .navigation--item {
@@ -23,5 +32,8 @@
 
   @include mq-s {
     margin: 0 0.125em;
+  }
+  @include mq-m {
+    margin: 0 1em;
   }
 }
