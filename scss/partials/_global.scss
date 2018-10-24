@@ -33,15 +33,33 @@ body {
     width: 100%;
     transform: translateX(0);
   }
+  @include mq-m {
+    // border: medium dotted red;
+    width: 100%;
+    transform: translateX(0);
+    // transform: translateX(calc(980px / 1 - 100vw ));
+  }
 
   img {
     width: 100%;
+  }
+  .full {
+    width: 100%;
+    margin: 0 60px;
   }
   .half {
     width: 48%;
 
     @include mq-s {
       width: 100%;
+    }
+  }
+  .left {
+
+  }
+  .right {
+    @include mq-s {
+      display: none;
     }
   }
 }
@@ -58,6 +76,12 @@ body {
   position: absolute;
   bottom: 1em;
   right: 1em;
+
+  @include mq-s {
+    width: 120px;
+    height: 120px;
+    bottom: -1em;
+  }
 
   &:before {
     display: block;
@@ -78,15 +102,27 @@ body {
     &:nth-child(1) {
       font-family: 'Abril Fatface', sans-serif;
       font-size: 1.25em;
+
+      @include mq-s {
+        font-size: 1em;
+      }
     }
     &:nth-child(2) {
       font-family: 'Abril Fatface', sans-serif;
       font-size: 2em;
       margin-bottom: 0.25em;
+
+      @include mq-s {
+        font-size: 1.4em;
+      }
     }
     &:nth-child(3) {
       font-family: 'Special Elite', cursive;
       font-size: 1.3em;
+
+      @include mq-s {
+        font-size: 1em;
+      }
     }
     &:nth-child(4) {
       font-family: 'Special Elite', cursive;
