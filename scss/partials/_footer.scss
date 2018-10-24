@@ -20,7 +20,9 @@ footer {
   margin: 0.5em;
 }
 .footer-list--social {
-
+  a {
+    display: block;
+  }
 }
 .footer-link {
   width: 100%;
@@ -28,18 +30,27 @@ footer {
   display: block;
   border-radius: 50%;
   background-color: $wh-tr-3;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 32px;
 }
 .footer-link--instagram {
+  background-image: url(../img/social-instagram.svg);
+
   &:hover {
     background-color: $ig;
   }
 }
 .footer-link--facebook {
+  background-image: url(../img/social-facebook.svg);
+
   &:hover {
     background-color: $fb;
   }
 }
 .footer-link--twitter {
+  background-image: url(../img/social-twitter.svg);
+
   &:hover {
     background-color: $tw;
   }

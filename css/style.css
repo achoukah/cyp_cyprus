@@ -225,27 +225,34 @@ body {
   justify-content: space-between;
 }
 
-/* line 31, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
-.hero img {
-  width: 100%;
-}
-
-/* line 35, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
-.hero .half {
-  width: 48%;
-}
-
 @media (max-width: 600px) {
   /* line 25, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
   .hero {
     flex-wrap: wrap;
     width: 100%;
-    -webkit-transform: translateX(-20px);
-            transform: translateX(-20px);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 }
 
-/* line 45, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
+/* line 37, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
+.hero img {
+  width: 100%;
+}
+
+/* line 40, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
+.hero .half {
+  width: 48%;
+}
+
+@media (max-width: 600px) {
+  /* line 40, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
+  .hero .half {
+    width: 100%;
+  }
+}
+
+/* line 48, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
 .roundel {
   width: 180px;
   height: 180px;
@@ -262,7 +269,7 @@ body {
   right: 1em;
 }
 
-/* line 59, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
+/* line 62, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
 .roundel:before {
   display: block;
   content: "";
@@ -275,33 +282,33 @@ body {
   left: 0;
 }
 
-/* line 70, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
+/* line 73, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
 .roundel span {
   display: block;
   position: relative;
   text-transform: uppercase;
 }
 
-/* line 75, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
+/* line 78, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
 .roundel span:nth-child(1) {
   font-family: 'Abril Fatface', sans-serif;
   font-size: 1.25em;
 }
 
-/* line 79, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
+/* line 82, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
 .roundel span:nth-child(2) {
   font-family: 'Abril Fatface', sans-serif;
   font-size: 2em;
   margin-bottom: 0.25em;
 }
 
-/* line 84, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
+/* line 87, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
 .roundel span:nth-child(3) {
   font-family: 'Special Elite', cursive;
   font-size: 1.3em;
 }
 
-/* line 88, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
+/* line 91, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
 .roundel span:nth-child(4) {
   font-family: 'Special Elite', cursive;
 }
@@ -413,31 +420,54 @@ footer {
   margin: 0.5em;
 }
 
-/* line 25, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_footer.scss */
+/* line 23, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_footer.scss */
+.footer-list--social a {
+  display: block;
+}
+
+/* line 27, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_footer.scss */
 .footer-link {
   width: 100%;
   height: 100%;
   display: block;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.3);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 32px;
 }
 
-/* line 33, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_footer.scss */
+/* line 37, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_footer.scss */
+.footer-link--instagram {
+  background-image: url(../img/social-instagram.svg);
+}
+
+/* line 40, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_footer.scss */
 .footer-link--instagram:hover {
   background-color: #e1306c;
 }
 
-/* line 38, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_footer.scss */
+/* line 44, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_footer.scss */
+.footer-link--facebook {
+  background-image: url(../img/social-facebook.svg);
+}
+
+/* line 47, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_footer.scss */
 .footer-link--facebook:hover {
   background-color: #3b5998;
 }
 
-/* line 43, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_footer.scss */
+/* line 51, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_footer.scss */
+.footer-link--twitter {
+  background-image: url(../img/social-twitter.svg);
+}
+
+/* line 54, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_footer.scss */
 .footer-link--twitter:hover {
   background-color: #55acee;
 }
 
-/* line 47, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_footer.scss */
+/* line 58, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_footer.scss */
 .copyright {
   text-align: center;
   color: rgba(255, 255, 255, 0.3);
