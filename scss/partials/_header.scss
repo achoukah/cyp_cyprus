@@ -6,7 +6,7 @@
   padding: 0 1em 2em;
 
   @include mq-s {
-
+    flex-direction: column;
   }
 
   a {
@@ -15,9 +15,10 @@
   img {
     display: block;
     width: 100%;
+    max-width: 295px;
 
     @include mq-s {
-
+      margin: auto;
     }
   }
 }
@@ -27,6 +28,7 @@
   width: 295px;
 
   @include mq-s {
-    width: 100vw;
+    width: 100%;
+    // order: 2;
   }
 }

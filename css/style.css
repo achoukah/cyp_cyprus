@@ -177,7 +177,7 @@ strong {
 @media (max-width: 600px) {
   /* line 53, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_typography.scss */
   .text-large {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 }
 
@@ -315,13 +315,28 @@ body {
   padding: 0 1em 2em;
 }
 
+@media (max-width: 600px) {
+  /* line 1, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_header.scss */
+  .header {
+    flex-direction: column;
+  }
+}
+
 /* line 15, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_header.scss */
 .header img {
   display: block;
   width: 100%;
+  max-width: 295px;
 }
 
-/* line 24, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_header.scss */
+@media (max-width: 600px) {
+  /* line 15, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_header.scss */
+  .header img {
+    margin: auto;
+  }
+}
+
+/* line 25, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_header.scss */
 .site-branding {
   margin: 0;
   padding: 0;
@@ -329,9 +344,9 @@ body {
 }
 
 @media (max-width: 600px) {
-  /* line 24, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_header.scss */
+  /* line 25, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_header.scss */
   .site-branding {
-    width: 100vw;
+    width: 100%;
   }
 }
 
