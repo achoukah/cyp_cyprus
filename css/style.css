@@ -188,6 +188,23 @@ strong {
   }
 }
 
+/* line 1, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_links.scss */
+a {
+  transition: all 0.2s ease-in-out;
+}
+
+/* line 8, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_links.scss */
+.navigation--item a {
+  border-bottom: 2px solid transparent;
+  padding: 0.25em 0.25em 1em 0.25em;
+}
+
+/* line 12, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_links.scss */
+.navigation--item a:hover {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  padding: 0.25em 0.25em 0 0.25em;
+}
+
 /* line 1, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
 body {
   background-color: #1a1919;
@@ -461,7 +478,7 @@ body {
 
 /* line 30, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_navigation.scss */
 .navigation--item {
-  margin-left: 3em;
+  margin-left: 2em;
 }
 
 @media (max-width: 600px) {
@@ -476,6 +493,11 @@ body {
   .navigation--item {
     margin: 0 1em;
   }
+}
+
+/* line 41, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_navigation.scss */
+.navigation--item a {
+  padding: 0.25em;
 }
 
 /* line 1, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_footer.scss */

@@ -28,12 +28,17 @@
 }
 
 .navigation--item {
-  margin-left: 3em;
+  margin-left: 2em;
+
 
   @include mq-s {
     margin: 0 0.125em;
   }
   @include mq-m {
     margin: 0 1em;
+  }
+
+  a {
+    padding: 0.25em;
   }
 }
