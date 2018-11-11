@@ -1,3 +1,5 @@
-.jpg
-.png
-.css
+*.css
+*.sublime-workspace
+*.sublime-project
+*.jpg
+*.png

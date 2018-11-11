@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"bg",
+				"bgi\tbackground-image: url(${0});"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"bg-i",
+				"background-image"
+			],
+			[
 				"ma",
 				"margin-bottom\tproperty"
 			],
@@ -30,10 +42,6 @@
 			[
 				"n",
 				"no-repeat"
-			],
-			[
-				"bg",
-				"bgc\tbackground-color: #${1:fff};"
 			],
 			[
 				"font-s",
@@ -91,7 +99,16 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2388,
+				"buffer_size": 3931,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/partials/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 1615,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -252,8 +269,43 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/css",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss"
+	],
 	"file_history":
 	[
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/css/style.css",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_header.scss",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_navigation.scss",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_typography.scss",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/img/social-instagram.svg",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_footer.scss",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/.gitignore",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_variables.scss",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/style.scss",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_reset.scss",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_forms.scss",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/abstracts/_variables.scss",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/layouts/_navigation.scss",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/layouts/_header.scss",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/base/_typography.scss",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/base/__base-dir.scss",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/abstracts/__abstracts-dir.scss",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/base/_links.scss",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/vendor/__vendor-dir.scss",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/layouts/__layouts-dir.scss",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/layouts/_body.scss",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/layouts/_footer.scss",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/components/_container.scss",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/abstracts/_fonts.scss",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/base/_global.scss",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/abstracts/_mixins.scss",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/base/_reset.scss",
+		"/Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/components/__components-dir.scss",
 		"/Users/achoukah/Documents/Tool_Shed/01-locate-productions/04-LOC-newsletter/03/html/index.html",
 		"/Users/achoukah/Documents/Tool_Shed/01-locate-productions/04-LOC-newsletter/03/html/scss/partials/_template.scss",
 		"/Users/achoukah/Documents/Tool_Shed/01-locate-productions/04-LOC-newsletter/03/html/css/style.css",
@@ -352,36 +404,7 @@
 		"/Users/achoukah/Documents/htdocs/anwarchoukah/.htaccess",
 		"/Applications/MAMP/conf/apache/original/httpd.conf",
 		"/Users/achoukah/Documents/htdocs/anwarchoukah/content/1-projects/2-zipwyr/project.txt",
-		"/Users/achoukah/Documents/htdocs/anwarchoukah/content/1-projects/3-utv/project.txt",
-		"/Users/achoukah/Documents/htdocs/anwarchoukah/content/1-projects/1-forient/project.txt",
-		"/Users/achoukah/Documents/htdocs/anwarchoukah/__old/content-old/1-about/about.txt",
-		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/partials/_reset.scss",
-		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/css/main.css",
-		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/css/critical.css",
-		"/Users/achoukah/Documents/htdocs/anwarchoukah/analyticstracking.php",
-		"/Users/achoukah/Documents/htdocs/anwarchoukah/main.css",
-		"/Users/achoukah/Documents/htdocs/anwarchoukah/site/templates/contact.php",
-		"/Users/achoukah/Documents/htdocs/anwarchoukah/site/snippets/contactmail.php",
-		"/Users/achoukah/Documents/htdocs/anwarchoukah/site/controllers/contact.php",
-		"/Users/achoukah/Documents/htdocs/anwarchoukah/content/3-contact/thank-you/thank-you.txt",
-		"/Users/achoukah/Library/Caches/com.binarynights.ForkLift-3/CCC88098-7BCA-413F-8B3F-21518B2315D5/nginx.conf",
-		"/Users/achoukah/Documents/htdocs/anwarchoukah/phpinfo.php",
-		"/Users/achoukah/.ssh/anwarchoukah.pub",
-		"/Users/achoukah/.ssh/id_rsa.pub",
-		"/Users/achoukah/.ssh/known_hosts",
-		"/Users/achoukah/.ssh/id_rsa",
-		"/Users/achoukah/Library/Caches/com.binarynights.ForkLift2/#2/header.php",
-		"/Users/achoukah/Library/Caches/com.binarynights.ForkLift2/#0/header.php",
-		"/Users/achoukah/Library/Caches/com.binarynights.ForkLift2/#1/header.php",
-		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/css/style.css",
-		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/.sass-cache/0ebb7d76ca79711a8be0b85008de2912632bb471/_sidebar.scssc",
-		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/.sass-cache/382f68e4313b8208d9dd911d0ad0d84195013c57/_sidebar.scssc",
-		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/.sass-cache/9e4ea2f3df865e1f1c9f322fedbb8c3dcb485946/_sidebar.scssc",
-		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/partials/_site.scss",
-		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/partials/_meta.scss",
-		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/.sass-cache/9e4ea2f3df865e1f1c9f322fedbb8c3dcb485946/_site.scssc",
-		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/css/main-old.css",
-		"/Users/achoukah/Documents/htdocs/anwarchoukah/assets/scss/.sass-cache/0ebb7d76ca79711a8be0b85008de2912632bb471/_header.scssc"
+		"/Users/achoukah/Documents/htdocs/anwarchoukah/content/1-projects/3-utv/project.txt"
 	],
 	"find":
 	{
@@ -392,6 +415,7 @@
 		"height": 158.0,
 		"where_history":
 		[
+			"<project>"
 		]
 	},
 	"find_state":
@@ -399,6 +423,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"3",
+			"footer-link",
+			"href",
+			"&:n",
+			"smoot",
+			"'Overpass', sans-serif",
+			"$sansSerif",
+			"font-family",
+			".container",
+			"$blue",
+			"$font-face",
+			"$blue",
+			"$black"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -406,6 +443,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"$font-body",
+			"$bk-dk"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -416,7 +455,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -425,36 +464,76 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2388,
+						"buffer_size": 3931,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								397,
-								397
+								2574,
+								2574
 							]
 						],
 						"settings":
 						{
 							"WordCount":
 							{
-								"changes": 48,
-								"count": 22,
-								"modified": false,
-								"selection": false,
+								"changes": -1,
+								"modified": true,
+								"selection": true,
 								"status": -1,
 								"syntax": "plain text"
 							},
 							"auto_name": "",
 							"colorcode": true,
+							"history_list_is_closing": true,
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scss/partials/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1615,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								293,
+								293
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 205,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"colorcode": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 240.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -496,7 +575,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.487506577409,
 			1.0
 		],
 		"rows":
@@ -540,6 +619,66 @@
 				"css/style.css"
 			],
 			[
+				"heade",
+				"scss/partials/_header.scss"
+			],
+			[
+				"ty",
+				"scss/partials/_typography.scss"
+			],
+			[
+				"var",
+				"scss/partials/_variables.scss"
+			],
+			[
+				"footer",
+				"scss/partials/_footer.scss"
+			],
+			[
+				"nav",
+				"scss/partials/_navigation.scss"
+			],
+			[
+				"typ",
+				"scss/partials/_typography.scss"
+			],
+			[
+				"head",
+				"scss/partials/_header.scss"
+			],
+			[
+				"rese",
+				"scss/partials/_reset.scss"
+			],
+			[
+				"na",
+				"scss/partials/_navigation.scss"
+			],
+			[
+				"glo",
+				"scss/partials/_global.scss"
+			],
+			[
+				"res",
+				"scss/partials/_reset.scss"
+			],
+			[
+				"bas",
+				"scss/base/__base-dir.scss"
+			],
+			[
+				"st",
+				"scss/style.scss"
+			],
+			[
+				"abst",
+				"scss/abstracts/__abstracts-dir.scss"
+			],
+			[
+				"fonts",
+				"scss/abstracts/_fonts.scss"
+			],
+			[
 				"tem",
 				"scss/partials/_template.scss"
 			],
@@ -558,10 +697,6 @@
 			[
 				"widg",
 				"html/css/widget.css"
-			],
-			[
-				"st",
-				"html/scss/widget.css"
 			],
 			[
 				"header",
@@ -592,40 +727,8 @@
 				"scss/partials/_layout.scss"
 			],
 			[
-				"head",
-				"scss/partials/_header.scss"
-			],
-			[
-				"na",
-				"scss/partials/_navigation.scss"
-			],
-			[
-				"typ",
-				"scss/partials/_typography.scss"
-			],
-			[
-				"var",
-				"scss/partials/_variables.scss"
-			],
-			[
-				"nav",
-				"scss/partials/_navigation.scss"
-			],
-			[
-				"heade",
-				"scss/partials/_header.scss"
-			],
-			[
-				"ty",
-				"scss/partials/_typography.scss"
-			],
-			[
 				"h",
 				"scss/partials/_header.scss"
-			],
-			[
-				"footer",
-				"scss/partials/_footer.scss"
 			],
 			[
 				"foo",
@@ -744,7 +847,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
