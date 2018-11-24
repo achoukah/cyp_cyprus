@@ -16,7 +16,7 @@
 .navigation {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: top;
 
   @include mq-s {
     flex-wrap: wrap;
@@ -40,5 +40,26 @@
 
   a {
     padding: 0.25em;
+  }
+}
+.navigation--item {
+
+  a {
+    border-bottom: 2px solid transparent;
+    padding: 0.25em 0.25em 1em 0.25em;
+    display: block;
+
+    &:hover {
+      border-bottom: 2px solid $wh-tr-5;
+      padding: 0.25em 0.25em 0 0.25em;
+    }
+  }
+}
+.navigation--item__highlighted {
+
+
+  a {
+    border-bottom: 2px solid $wh-lt;
+    padding: 0.25em 0.25em 0 0.25em;
   }
 }
