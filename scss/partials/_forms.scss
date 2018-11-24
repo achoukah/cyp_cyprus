@@ -1,0 +1,24 @@
+form {
+  width: 100%;
+}
+fieldset {
+  margin-bottom: 1em;
+  width: 100%;
+}
+input[type=text],
+input[type=email],
+textarea {
+  width: 100%;
+  padding: 0.5em;
+}
+textarea {
+
+}
+.button {
+  padding: .5em;
+  background-color: $wh-tr-6;
+  color: $bk-dk;
+}
+.button-submit {
+
+}
