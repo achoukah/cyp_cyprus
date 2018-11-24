@@ -286,7 +286,13 @@ body {
   }
 }
 
-/* line 66, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
+/* line 65, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
+.hero iframe {
+  width: 980px;
+  min-height: 551px;
+}
+
+/* line 70, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
 .roundel {
   width: 180px;
   height: 180px;
@@ -304,7 +310,7 @@ body {
 }
 
 @media (max-width: 600px) {
-  /* line 66, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
+  /* line 70, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
   .roundel {
     width: 120px;
     height: 120px;
@@ -312,7 +318,7 @@ body {
   }
 }
 
-/* line 86, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
+/* line 90, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
 .roundel:before {
   display: block;
   content: "";
@@ -325,27 +331,27 @@ body {
   left: 0;
 }
 
-/* line 97, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
+/* line 101, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
 .roundel span {
   display: block;
   position: relative;
   text-transform: uppercase;
 }
 
-/* line 102, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
+/* line 106, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
 .roundel span:nth-child(1) {
   font-family: 'Abril Fatface', sans-serif;
   font-size: 1.25em;
 }
 
 @media (max-width: 600px) {
-  /* line 102, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
+  /* line 106, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
   .roundel span:nth-child(1) {
     font-size: 1em;
   }
 }
 
-/* line 110, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
+/* line 114, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
 .roundel span:nth-child(2) {
   font-family: 'Abril Fatface', sans-serif;
   font-size: 2em;
@@ -353,26 +359,26 @@ body {
 }
 
 @media (max-width: 600px) {
-  /* line 110, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
+  /* line 114, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
   .roundel span:nth-child(2) {
     font-size: 1.4em;
   }
 }
 
-/* line 119, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
+/* line 123, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
 .roundel span:nth-child(3) {
   font-family: 'Special Elite', cursive;
   font-size: 1.3em;
 }
 
 @media (max-width: 600px) {
-  /* line 119, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
+  /* line 123, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
   .roundel span:nth-child(3) {
     font-size: 1em;
   }
 }
 
-/* line 127, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
+/* line 131, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_global.scss */
 .roundel span:nth-child(4) {
   font-family: 'Special Elite', cursive;
 }
