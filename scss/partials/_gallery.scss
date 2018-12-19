@@ -1,0 +1,26 @@
+.hero-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 980px;
+  transform: translateX(-130px);
+  justify-content: space-between;
+
+  @include mq-s {
+    flex-wrap: wrap;
+    width: 100%;
+    transform: translateX(0);
+  }
+  @include mq-m {
+    // border: medium dotted red;
+    width: 100%;
+    transform: translateX(0);
+    // transform: translateX(calc(980px / 1 - 100vw ));
+  }
+  img {
+    padding: 0.5em;
+    @include mq-s {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
