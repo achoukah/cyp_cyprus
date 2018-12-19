@@ -190,24 +190,45 @@ strong {
 
 /* line 1, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_forms.scss */
 form {
-  width: 100%;
+  width: 720px;
 }
 
 /* line 4, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_forms.scss */
 fieldset {
   margin-bottom: 1em;
-  width: 100%;
+  width: inherit;
 }
 
 /* line 8, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_forms.scss */
 input[type=text],
 input[type=email],
 textarea {
-  width: 100%;
+  width: inherit;
   padding: 0.5em;
+  font-family: "Overpass", sans-serif;
+  padding: 0.5em;
+  font-size: 1em;
+  background-color: rgba(26, 25, 25, 0.8);
+  transition: all 0.2s ease-in-out;
+  color: rgba(255, 255, 255, 0.8);
 }
 
-/* line 17, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_forms.scss */
+/* line 20, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_forms.scss */
+input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgba(26, 25, 25, 0.8);
+}
+
+/* line 25, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_forms.scss */
+textarea {
+  min-width: 720px;
+  max-width: 720px;
+  min-height: 16em;
+}
+
+/* line 30, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_forms.scss */
 .button {
   padding: .5em;
   background-color: rgba(255, 255, 255, 0.6);

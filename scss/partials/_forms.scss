@@ -1,18 +1,31 @@
 form {
-  width: 100%;
+  width: 720px;
 }
 fieldset {
   margin-bottom: 1em;
-  width: 100%;
+  width: inherit;
 }
 input[type=text],
 input[type=email],
 textarea {
-  width: 100%;
+  width: inherit;
   padding: 0.5em;
+  font-family: $font-body;
+  padding: 0.5em;
+  font-size: 1em;
+  background-color: $bk-tr-8;
+  transition: all 0.2s ease-in-out;
+  color: $wh-tr-8;
+
+  &:focus {
+    background-color: $wh-tr-5;
+    color: $bk-tr-8;
+  }
 }
 textarea {
-
+  min-width: 720px;
+  max-width: 720px;
+  min-height: 16em;
 }
 .button {
   padding: .5em;
