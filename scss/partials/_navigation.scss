@@ -58,12 +58,14 @@
     transform: translateY(-0.75em);
 
     a {
-      padding: 0.5em;
+      padding: 0.25em 0.5em;
       border-bottom: none;
+      color: $bk-dk;
+      font-weight: 800;
 
       &:hover {
         border-bottom: none;
-      }
+        padding: 0.25em 0.5em;      }
     }
   }
 }

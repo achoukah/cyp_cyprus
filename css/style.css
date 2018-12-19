@@ -212,6 +212,7 @@ textarea {
   padding: .5em;
   background-color: rgba(255, 255, 255, 0.6);
   color: #1a1919;
+  border-radius: 0.25em;
 }
 
 /* line 1, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_links.scss */
@@ -549,16 +550,19 @@ body {
 
 /* line 60, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_navigation.scss */
 .navigation--item.button a {
-  padding: 0.5em;
+  padding: 0.25em 0.5em;
   border-bottom: none;
+  color: #1a1919;
+  font-weight: 800;
 }
 
-/* line 64, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_navigation.scss */
+/* line 66, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_navigation.scss */
 .navigation--item.button a:hover {
   border-bottom: none;
+  padding: 0.25em 0.5em;
 }
 
-/* line 72, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_navigation.scss */
+/* line 74, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_navigation.scss */
 .navigation--item__highlighted a {
   border-bottom: 2px solid white;
   padding: 0.25em 0.25em 0 0.25em;
