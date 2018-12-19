@@ -570,12 +570,9 @@ body {
 
 /* line 1, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_gallery.scss */
 .hero-gallery {
-  display: flex;
-  flex-wrap: wrap;
   width: 980px;
   -webkit-transform: translateX(-130px);
           transform: translateX(-130px);
-  justify-content: space-between;
 }
 
 @media (max-width: 600px) {
@@ -597,13 +594,26 @@ body {
   }
 }
 
-/* line 19, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_gallery.scss */
+/* line 16, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_gallery.scss */
+.hero-gallery ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* line 21, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_gallery.scss */
+.hero-gallery li {
+  width: 33%;
+}
+
+/* line 24, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_gallery.scss */
 .hero-gallery img {
   padding: 0.5em;
+  max-width: 100%;
 }
 
 @media (max-width: 600px) {
-  /* line 19, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_gallery.scss */
+  /* line 24, Users/achoukah/Dropbox/00 - CURRENT/Cyp Cyprus/anwar/html/scss/partials/_gallery.scss */
   .hero-gallery img {
     width: 100%;
     height: auto;

@@ -1,9 +1,6 @@
 .hero-gallery {
-  display: flex;
-  flex-wrap: wrap;
   width: 980px;
   transform: translateX(-130px);
-  justify-content: space-between;
 
   @include mq-s {
     flex-wrap: wrap;
@@ -16,8 +13,18 @@
     transform: translateX(0);
     // transform: translateX(calc(980px / 1 - 100vw ));
   }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  li {
+    width: 33%;
+  }
   img {
     padding: 0.5em;
+    max-width: 100%;
+    // height: auto;
     @include mq-s {
       width: 100%;
       height: auto;
